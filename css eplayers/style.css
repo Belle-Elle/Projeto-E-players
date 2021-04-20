@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    POSITION: FIXED;
+    Z-INDEX: 99;
+    WIDTH: 100%;
+    TOP: 0;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.nav-header{
+    justify-content: space-between;
+    display: flex;
+    width: 490px;
+    height: 80px;
+    
+}
+
+.nav-header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 70px;
+}
+
+.container_baner{
+    background-image: url(../assetse-players/fundo\ baner\ e-players.png);
+    height: 400px;
+    width: 100%;
+}
+
+.fundo-baner {
+    width: 100%;
+    height:740px ;
+}
+
+.baner{
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    display: flex;
+}
+
+.fundo-baner-valorante{
+    width: 750px;
+    margin-top: 80px;
+}
+
+.div-baner{
+    margin-top: 222px;
+}
+
+.container-jogos{
+    background-color: #000000;
+    height: 148px;
+    padding: 35px;
+
+}
+
+.div-logo-jogos{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-ligas{
+    background-image: url(../assetse-players/bg-lol.jpg);
+    width: 100%;
+    height: 752px;
+}
+
