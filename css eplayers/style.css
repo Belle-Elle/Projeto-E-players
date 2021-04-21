@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web: wght @ 200 & display = swap');
+
 *{
     margin: 0;
     padding: 0%;
@@ -58,6 +61,8 @@ main{
     top: 10px;
     left: 2px;
     display: flex;
+    width: 1200px;
+    justify-content: space-around;
 }
 
 .fundo-baner-valorante{
@@ -67,6 +72,15 @@ main{
 
 .div-baner{
     margin-top: 222px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .container-jogos{
@@ -86,5 +100,22 @@ main{
     background-image: url(../assetse-players/bg-lol.jpg);
     width: 100%;
     height: 752px;
+    padding:5vw;
+}
+
+.div_ligas{
+    display:flex;
+    padding:5vw;
+    align-items: center;
+}
+
+.div-dois-ligas{
+    flex-direction:column;
+    color: ghostwhite;
+} 
+
+.div-dois-ligas p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
 }
 
