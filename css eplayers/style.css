@@ -116,7 +116,7 @@ h1{
 
 .div_ligas{
     display:flex;
-    padding:5vw;
+    padding:10vw;
     align-items: center;
     position: absolute;
     z-index: 98;
@@ -135,6 +135,19 @@ h1{
 
 .noticias{
     background-color: #1E1C21;
-    
 }
 
+.container-noticias{
+    width: 930px;
+    display: flex;
+
+}
+
+.div_noticias{
+    color:white;
+}
+
+.img_noticias{
+    width: 278px;
+    height: 194px;
+}
